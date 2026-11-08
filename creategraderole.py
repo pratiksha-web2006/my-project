@@ -1,9 +1,14 @@
-# Student Grade Calculator
-print("Student Grading System")
-print("----------------------")
-print("A Grade: 90 - 100")
-print("B Grade: 80 - 89")
-print("C Grade: 70 - 79")
-print("D Grade: 60 - 69")
-print("F Grade: 0 - 59")
+# Time of Day Message
 
+time = int(input("Enter current hour (0-23): "))
+
+if time >= 5 and time < 12:
+    print("Good Morning!")
+elif time >= 12 and time < 17:
+    print("Good Afternoon!")
+elif time >= 17 and time < 21:
+    print("Good Evening!")
+elif time >= 0 and time < 24:
+    print("Good Night!")
+else:
+    print("Invalid time!")
